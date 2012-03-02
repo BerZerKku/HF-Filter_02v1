@@ -133,10 +133,10 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "e:\orcad_sch\rzsk\hf_filter\v4\v3.dsn")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "..\hf_filter.olb")
-      (Select "Design Resources" "e:\orcad_sch\rzsk\hf_filter\v4\v3.dsn"))
+      (Path "Design Resources" "Library"
+         "e:\orcad_sch\rzsk\hf_filter\hf_filter.olb")
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -147,8 +147,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -23 44 1024 44 509")
-        (Scroll "315 451")
-        (Zoom "148")
+        (Scroll "895 387")
+        (Zoom "110")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\RZSK\HF_FILTER\V4\V3.DSN")
       (Schematic "SCHEMATIC1")

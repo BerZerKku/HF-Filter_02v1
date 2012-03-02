@@ -1,0 +1,257 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : v3.brd                                        )
+(    Software Version : 16.5S013                                      )
+(    Date/Time        : Fri Mar 02 09:51:17 2012                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found ... using drawing extents
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          MM
+    FILM-SIZE             2400000 1600000
+    FORMAT                3.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        YES
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < e:/ORCAD_sch/RZSK/HF_filter/v4/pcb/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.250
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     2.00000                                  DARK 
+  CIRCLE     2.50000                                  DARK 
+  CIRCLE     3.20000                                  DARK 
+  CIRCLE     4.00000                                  DARK 
+  CIRCLE     6.00000                                  DARK 
+  CIRCLE     6.50000                                  DARK 
+  SQUARE     2.50000                     0.000 NO     DARK 
+  SQUARE     3.00000                     0.000 NO     DARK 
+  SQUARE     4.00000                     0.000 NO     DARK 
+
+     TOP created.
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < e:/ORCAD_sch/RZSK/HF_filter/v4/pcb/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.250
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.75000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     2.00000                                  DARK 
+  CIRCLE     2.50000                                  DARK 
+  CIRCLE     3.20000                                  DARK 
+  CIRCLE     4.00000                                  DARK 
+  CIRCLE     6.00000                                  DARK 
+  CIRCLE     6.50000                                  DARK 
+  SQUARE     2.50000                     0.000 NO     DARK 
+  SQUARE     3.00000                     0.000 NO     DARK 
+  SQUARE     4.00000                     0.000 NO     DARK 
+
+     BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < SILK_BOT >
+     TO FILE < e:/ORCAD_sch/RZSK/HF_filter/v4/pcb/SILK_BOT.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.250
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+    WARNING: 0 width line found at (57.000 39.000)
+           ... using undefined line width of 0.250
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.250
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.25000                                  DARK 
+
+     SILK_BOT created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILK_TOP >
+     TO FILE < e:/ORCAD_sch/RZSK/HF_filter/v4/pcb/SILK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.250
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.25000                                  DARK 
+
+     SILK_TOP created.
+
+
+================================================================
+     PROCESSING FILM < BOARD >
+     TO FILE < e:/ORCAD_sch/RZSK/HF_filter/v4/pcb/BOARD.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.250
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.25000                                  DARK 
+
+     BOARD created.
+
+
+================================================================
+     PROCESSING FILM < MASK_BOT >
+     TO FILE < e:/ORCAD_sch/RZSK/HF_filter/v4/pcb/MASK_BOT.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     2.50000                                  DARK 
+  CIRCLE     3.20000                                  DARK 
+  CIRCLE     4.00000                                  DARK 
+  CIRCLE     6.50000                                  DARK 
+  SQUARE     2.50000                     0.000 NO     DARK 
+  SQUARE     3.20000                     0.000 NO     DARK 
+  SQUARE     4.00000                     0.000 NO     DARK 
+
+     MASK_BOT created.
+
+
+================================================================
+     PROCESSING FILM < MASK_TOP >
+     TO FILE < e:/ORCAD_sch/RZSK/HF_filter/v4/pcb/MASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     2.50000                                  DARK 
+  CIRCLE     3.20000                                  DARK 
+  CIRCLE     4.00000                                  DARK 
+  CIRCLE     6.50000                                  DARK 
+  SQUARE     2.50000                     0.000 NO     DARK 
+  SQUARE     3.20000                     0.000 NO     DARK 
+  SQUARE     4.00000                     0.000 NO     DARK 
+
+     MASK_TOP created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created.
+        BOTTOM created.
+        SILK_BOT created with warnings
+        SILK_TOP created.
+        BOARD created.
+        MASK_BOT created.
+        MASK_TOP created.
+
+ ARTWORK finished

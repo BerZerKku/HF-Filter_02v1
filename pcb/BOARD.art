@@ -1,0 +1,29 @@
+G04 ================== begin FILE IDENTIFICATION RECORD ==================*
+G04 Layout Name:  e:/ORCAD_sch/RZSK/HF_filter/v4/pcb/v3.brd*
+G04 Film Name:    BOARD*
+G04 File Format:  Gerber RS274X*
+G04 File Origin:  Cadence Allegro 16.5-S013*
+G04 Origin Date:  Fri Mar 02 09:51:18 2012*
+G04 *
+G04 Layer:  BOARD GEOMETRY/OUTLINE*
+G04 *
+G04 Offset:    (0.000 0.000)*
+G04 Mirror:    No*
+G04 Mode:      Positive*
+G04 Rotation:  0*
+G04 FullContactRelief:  No*
+G04 UndefLineWidth:     0.250*
+G04 ================== end FILE IDENTIFICATION RECORD ====================*
+%FSLAX35Y35*MOMM*%
+%IR0*IPPOS*OFA0.00000B0.00000*MIA0B0*SFA1.00000B1.00000*%
+%ADD10C,.25*%
+G75*
+%LPD*%
+G75*
+G54D10*
+G01X5600000Y3800000D02*
+Y13800000D01*
+X22600000D01*
+Y3800000D01*
+X5600000D01*
+M02*
