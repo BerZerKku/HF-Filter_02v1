@@ -4,10 +4,15 @@
 (                                                                     )
 (    Drawing          : v3.brd                                        )
 (    Software Version : 16.5S013                                      )
-(    Date/Time        : Fri Mar 02 09:51:17 2012                      )
+(    Date/Time        : Sun Mar 11 10:26:30 2012                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
+
+
+ ******************************************
+ WARNING: DRC OUT OF DATE on this layout.
+ ******************************************
 
  ---- Photoplot outline rectangle not found ... using drawing extents
 
@@ -16,8 +21,8 @@
 Results from parameter file ...
     DEVICE-TYPE           GERBER_RS274X
     OUTPUT-UNITS          MM
-    FILM-SIZE             2400000 1600000
-    FORMAT                3.5
+    FILM-SIZE             240000 160000
+    FORMAT                3.4
     ABORT-ON-ERROR        NO
     SCALE                 1
     SUPPRESS-LEAD-ZEROES  YES
@@ -28,7 +33,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < TOP >
-     TO FILE < e:/ORCAD_sch/RZSK/HF_filter/v4/pcb/TOP.art > ...
+     TO FILE < E:/ORCAD_sch/RZSK/HF_filter/v4/pcb/TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -57,12 +62,12 @@ Results from parameter file ...
   SQUARE     3.00000                     0.000 NO     DARK 
   SQUARE     4.00000                     0.000 NO     DARK 
 
-     TOP created.
+     TOP created with warnings
 
 
 ================================================================
      PROCESSING FILM < BOTTOM >
-     TO FILE < e:/ORCAD_sch/RZSK/HF_filter/v4/pcb/BOTTOM.art > ...
+     TO FILE < E:/ORCAD_sch/RZSK/HF_filter/v4/pcb/BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -93,12 +98,12 @@ Results from parameter file ...
   SQUARE     3.00000                     0.000 NO     DARK 
   SQUARE     4.00000                     0.000 NO     DARK 
 
-     BOTTOM created.
+     BOTTOM created with warnings
 
 
 ================================================================
      PROCESSING FILM < SILK_BOT >
-     TO FILE < e:/ORCAD_sch/RZSK/HF_filter/v4/pcb/SILK_BOT.art > ...
+     TO FILE < E:/ORCAD_sch/RZSK/HF_filter/v4/pcb/SILK_BOT.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -130,7 +135,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < SILK_TOP >
-     TO FILE < e:/ORCAD_sch/RZSK/HF_filter/v4/pcb/SILK_TOP.art > ...
+     TO FILE < E:/ORCAD_sch/RZSK/HF_filter/v4/pcb/SILK_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -151,12 +156,12 @@ Results from parameter file ...
   ---------------------------------------------------------
   CIRCLE     0.25000                                  DARK 
 
-     SILK_TOP created.
+     SILK_TOP created with warnings
 
 
 ================================================================
      PROCESSING FILM < BOARD >
-     TO FILE < e:/ORCAD_sch/RZSK/HF_filter/v4/pcb/BOARD.art > ...
+     TO FILE < E:/ORCAD_sch/RZSK/HF_filter/v4/pcb/BOARD.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -177,12 +182,12 @@ Results from parameter file ...
   ---------------------------------------------------------
   CIRCLE     0.25000                                  DARK 
 
-     BOARD created.
+     BOARD created with warnings
 
 
 ================================================================
      PROCESSING FILM < MASK_BOT >
-     TO FILE < e:/ORCAD_sch/RZSK/HF_filter/v4/pcb/MASK_BOT.art > ...
+     TO FILE < E:/ORCAD_sch/RZSK/HF_filter/v4/pcb/MASK_BOT.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -201,20 +206,21 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     2.50000                                  DARK 
-  CIRCLE     3.20000                                  DARK 
-  CIRCLE     4.00000                                  DARK 
-  CIRCLE     6.50000                                  DARK 
-  SQUARE     2.50000                     0.000 NO     DARK 
-  SQUARE     3.20000                     0.000 NO     DARK 
-  SQUARE     4.00000                     0.000 NO     DARK 
+  CIRCLE     2.80000                                  DARK 
+  CIRCLE     3.50000                                  DARK 
+  CIRCLE     4.30000                                  DARK 
+  CIRCLE     6.30000                                  DARK 
+  CIRCLE     6.80000                                  DARK 
+  SQUARE     2.80000                     0.000 NO     DARK 
+  SQUARE     3.50000                     0.000 NO     DARK 
+  SQUARE     4.30000                     0.000 NO     DARK 
 
-     MASK_BOT created.
+     MASK_BOT created with warnings
 
 
 ================================================================
      PROCESSING FILM < MASK_TOP >
-     TO FILE < e:/ORCAD_sch/RZSK/HF_filter/v4/pcb/MASK_TOP.art > ...
+     TO FILE < E:/ORCAD_sch/RZSK/HF_filter/v4/pcb/MASK_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -233,25 +239,26 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     2.50000                                  DARK 
-  CIRCLE     3.20000                                  DARK 
-  CIRCLE     4.00000                                  DARK 
-  CIRCLE     6.50000                                  DARK 
-  SQUARE     2.50000                     0.000 NO     DARK 
-  SQUARE     3.20000                     0.000 NO     DARK 
-  SQUARE     4.00000                     0.000 NO     DARK 
+  CIRCLE     2.80000                                  DARK 
+  CIRCLE     3.60000                                  DARK 
+  CIRCLE     4.30000                                  DARK 
+  CIRCLE     6.30000                                  DARK 
+  CIRCLE     6.80000                                  DARK 
+  SQUARE     2.80000                     0.000 NO     DARK 
+  SQUARE     3.50000                     0.000 NO     DARK 
+  SQUARE     4.30000                     0.000 NO     DARK 
 
-     MASK_TOP created.
+     MASK_TOP created with warnings
 
 
 ------------------------------------------------------
  SUMMARY:
-        TOP created.
-        BOTTOM created.
+        TOP created with warnings
+        BOTTOM created with warnings
         SILK_BOT created with warnings
-        SILK_TOP created.
-        BOARD created.
-        MASK_BOT created.
-        MASK_TOP created.
+        SILK_TOP created with warnings
+        BOARD created with warnings
+        MASK_BOT created with warnings
+        MASK_TOP created with warnings
 
- ARTWORK finished
+ ARTWORK had warnings
