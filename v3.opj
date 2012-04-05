@@ -83,13 +83,15 @@
     (BOM_Report_File "E:\ORCAD_SCH\RZSK\HF_FILTER\V4\V3.BOM")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0
-       "{Reference}\t{Значение}\t{Наименование}\t{Quantity}")
-    (BOM_Header "Reference\tЗначение\tНаименование\tQuantity")
+       "{Item}\t{Наименование}\t{PCB Footprint}\t{Quantity}\t{Reference}")
+    (BOM_Header
+       "№ п/п\tНаименование\tКорпус\tКоличество\tПоз.обознач.\tПримечание")
     (BOM_Include_File "E:\ORCAD_SCH\RZSK\HF_FILTER\V4\V3.INC")
     (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_One_Part_Per_Line "FALSE")
     (Open_BOM_in_Excel "TRUE")
-    (BOM_View_Output "FALSE"))
+    (BOM_View_Output "FALSE")
+    (Board_sim_option "VHDL_flow"))
   (Folder "Outputs"
     (File ".\v3.drc"
       (Type "Report"))
@@ -109,7 +111,13 @@
       (Type "Report")
       (DisplayName "V3.PRP"))
     (File ".\v3.bom"
-      (Type "Report")))
+      (Type "Report"))
+    (File ".\v3_nosim_eng bill of materials.bom"
+      (Type "Report")
+      (DisplayName "V3_NOSIM_ENG BILL OF MATERIALS.BOM"))
+    (File ".\v3_sim_eng bill of materials.bom"
+      (Type "Report")
+      (DisplayName "V3_SIM_ENG BILL OF MATERIALS.BOM")))
   (Folder "Referenced Projects")
   (PartMRUSelector
     (P4mm
@@ -137,11 +145,8 @@
       (Path "Design Resources" "e:\orcad_sch\rzsk\hf_filter\v4\v3.dsn")
       (Path "Design Resources" "e:\orcad_sch\rzsk\hf_filter\v4\v3.dsn"
          "SCHEMATIC1")
-      (Path "Design Resources" "e:\orcad_sch\rzsk\hf_filter\v4\v3.dsn"
-         "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "e:\orcad_sch\rzsk\hf_filter\hf_filter.olb")
+      (Path "Outputs")
       (Select "Design Resources" "e:\orcad_sch\rzsk\hf_filter\v4\v3.dsn"
          "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
@@ -153,9 +158,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 44 1024 44 509")
-        (Scroll "-7 -10")
-        (Zoom "55")
+        (Placement "44 2 3 -1 -1 -4 -23 22 998 22 483")
+        (Scroll "750 237")
+        (Zoom "110")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\RZSK\HF_FILTER\V4\V3.DSN")
       (Schematic "SCHEMATIC1")
