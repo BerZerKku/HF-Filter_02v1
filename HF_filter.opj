@@ -91,7 +91,9 @@
     (BOM_One_Part_Per_Line "FALSE")
     (Open_BOM_in_Excel "TRUE")
     (BOM_View_Output "FALSE")
-    (Board_sim_option "VHDL_flow"))
+    (Board_sim_option "VHDL_flow")
+    (File ".\hf_filter.dsn"
+      (Type "Schematic Design")))
   (Folder "Outputs"
     (File ".\v3.drc"
       (Type "Report"))
@@ -142,34 +144,42 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources" ".\hf_filter.dsn")
+      (Path "Design Resources" ".\hf_filter.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-<<<<<<< HEAD:v3.opj
-      (Path "Outputs")
-      (Select "Design Resources" "e:\orcad_sch\rzsk\hf_filter\v4\v3.dsn"))
-=======
-      (Select "Design Resources"))
->>>>>>> master:HF_filter.opj
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 0 250 0 883"))
+        (Placement "44 2 3 -1 -1 -4 -23 0 250 0 899"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-<<<<<<< HEAD:v3.opj
-        (Placement "44 0 1 -1 -1 -4 -23 22 998 22 483")
-        (Scroll "-19 0")
-        (Zoom "55")
-=======
-        (Placement "44 0 1 -1 -1 -4 -23 44 1024 44 509")
-        (Scroll "639 387")
-        (Zoom "110")
->>>>>>> master:HF_filter.opj
+        (Placement "44 0 1 -1 -1 -4 -23 44 780 44 525")
+        (Scroll "462 60")
+        (Zoom "100")
         (Occurrence "/"))
-      (Path "E:\ORCAD_SCH\RZSK\HF_FILTER\V4\V3.DSN")
+      (Path "E:\ORCAD_SCH\RZSK\HF_FILTER\V4\HF_FILTER.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
-  (MPSSessionName "Shcheblykin")
-  (ISPCBBASICLICENSE "false"))
+      (Page "PAGE1"))) >>>>>>> master:HF_filter.opj
+  (HierarchyView)
+  (Doc
+    (Type "COrCapturePMDoc")
+    (Frame
+      (Placement "44 0 1 -1 -1 -4 -23 0 250 0 883"))
+    (Tab 0))
+  (Doc
+    (Type "COrSchematicDoc")
+    (Frame <<<<<<< HEAD:v3.opj
+      (Placement "44 0 1 -1 -1 -4 -23 22 998 22 483")
+      (Scroll "-19 0")
+      (Zoom "55") =======
+      (Placement "44 0 1 -1 -1 -4 -23 44 1024 44 509")
+      (Scroll "639 387")
+      (Zoom "110") >>>>>>> master:HF_filter.opj
+      (Occurrence "/"))
+    (Path "E:\ORCAD_SCH\RZSK\HF_FILTER\V4\V3.DSN")
+    (Schematic "SCHEMATIC1")
+    (Page "PAGE1")))
