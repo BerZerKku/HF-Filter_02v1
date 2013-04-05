@@ -147,19 +147,20 @@
       (Path "Design Resources" ".\hf_filter.dsn")
       (Path "Design Resources" ".\hf_filter.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 0 250 0 899"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 861"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 44 780 44 525")
-        (Scroll "462 60")
-        (Zoom "100")
+        (Placement "44 2 3 -1 -1 -4 -23 44 780 44 525")
+        (Scroll "783 261")
+        (Zoom "108")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\RZSK\HF_FILTER\V4\HF_FILTER.DSN")
       (Schematic "SCHEMATIC1")
@@ -182,4 +183,5 @@
       (Occurrence "/"))
     (Path "E:\ORCAD_SCH\RZSK\HF_FILTER\V4\V3.DSN")
     (Schematic "SCHEMATIC1")
-    (Page "PAGE1")))
+    (Page "PAGE1"))
+  (MPSSessionName "Shcheblykin"))
